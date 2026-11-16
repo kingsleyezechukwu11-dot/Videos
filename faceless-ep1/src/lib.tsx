@@ -451,67 +451,6 @@ export const Avatar: React.FC<{ letter: string; color: string; size?: number }> 
   </div>
 );
 
-/* ---------------- mascot: "Blank", a pixel creature whose face is an empty screen ---------------- */
-export const MASCOT = [
-  "....XXXX....",
-  "..XXXXXXXX..",
-  ".XXXXXXXXXX.",
-  ".XSSSSSSSSX.",
-  "XXSSSSSSSSXX",
-  "XXSSSSSSSSXX",
-  ".XSSSSSSSSX.",
-  ".XXXXXXXXXX.",
-  "..XXXXXXXX..",
-  "..XX....XX..",
-  "..XX....XX..",
-];
-
-export type Face = "cursor" | "?" | "!" | "ok" | "sad";
-
-export const Mascot: React.FC<{ size?: number; face?: Face; color?: string }> = ({
-  size = 120,
-  face = "cursor",
-  color = C.purple,
-}) => {
-  const f = useCurrentFrame();
-  const px = size / 12;
-  const bob = Math.sin(f / 9) * px * 0.35;
-  const blink = Math.floor(f / 15) % 2 === 0;
-  const faceColor = face === "ok" ? C.green : face === "!" || face === "sad" ? C.red : C.purpleHi;
-  return (
-    <div style={{ position: "relative", width: size, height: px * 11, transform: `translateY(${bob}px)` }}>
-      <svg width={size} height={px * 11} viewBox="0 0 12 11" shapeRendering="crispEdges">
-        {MASCOT.flatMap((row, y) =>
-          row.split("").map((ch, x) =>
-            ch === "." ? null : (
-              <rect key={x + "-" + y} x={x} y={y} width={1.02} height={1.02} fill={ch === "X" ? color : "#0b0b12"} />
-            )
-          )
-        )}
-        <rect x={2} y={0.6} width={1} height={1} fill="#ffffff55" />
-      </svg>
-      <div
-        style={{
-          position: "absolute",
-          left: px * 2,
-          top: px * 3,
-          width: px * 8,
-          height: px * 4,
-          display: "grid",
-          placeItems: "center",
-          fontFamily: F.mono,
-          fontWeight: 700,
-          fontSize: px * 2.6,
-          color: faceColor,
-          textShadow: `0 0 ${px}px ${faceColor}`,
-        }}
-      >
-        {face === "cursor" ? (blink ? "_" : "") : face === "ok" ? "✓" : face === "sad" ? "x_x" : face}
-      </div>
-    </div>
-  );
-};
-
 /** Wraps a scene: fades in/out and adds a slow camera push. */
 export const Scene: React.FC<{ from: number; to: number; children: React.ReactNode; push?: number }> = ({
   from,

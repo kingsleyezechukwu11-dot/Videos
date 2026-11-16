@@ -1,0 +1,32 @@
+[
+  {"id": "h1", "text": "Zack D. Films has around twenty-nine million subscribers."},
+  {"id": "h2", "text": "Bright Side has more than forty-four million."},
+  {"id": "h3", "text": "Kurzgesagt has over twenty-five million.", "tts": "Kurtsgehzahgt has over twenty-five million."},
+  {"id": "h4", "text": "And none of them are built around a person on camera."},
+  {"id": "h5", "text": "So you started a faceless channel too. Sixty days in, and it looks like this."},
+  {"id": "h6", "text": "Thirty-four videos. Three hundred and eleven views. Total."},
+  {"id": "h7", "text": "The algorithm isn't broken. The big channels do three things that most new faceless channels get wrong."},
+  {"id": "h8", "text": "In this video, we'll look at what they do right, where you're probably going wrong, and then build a channel step by step, with the exact sites to open and what to click on each one."},
+
+  {"id": "r1", "text": "First, they own one idea."},
+  {"id": "r2", "text": "Kurzgesagt explains big science questions, with the same look in every video. Zack D. Films answers one strange question in under a minute. You know what you're getting before you click.", "tts": "Kurtsgehzahgt explains big science questions, with the same look in every video. Zack D. Films answers one strange question in under a minute. You know what you're getting before you click."},
+  {"id": "r3", "text": "Second, the picture and the voice are made for each other. Every sentence puts something new on screen."},
+  {"id": "r4", "text": "And third, nothing is copied. Every upload is a new idea, made on purpose."},
+
+  {"id": "w1", "text": "Now compare that to the usual faceless setup."},
+  {"id": "w2", "text": "Pick a niche from a list of the most profitable niches. Ask AI for a script. Paste it into a voice tool. Cover it in stock footage. Upload. Then do it again thirty times."},
+  {"id": "w3", "text": "That is exactly what YouTube changed its rules to catch."},
+  {"id": "w4", "text": "In July twenty twenty-five, YouTube renamed its repetitious content policy to inauthentic content, to make it clear that it covers videos that are mass-produced or repetitive."},
+  {"id": "w5", "text": "Using AI is allowed. Uploading the same template over and over isn't."},
+  {"id": "w6", "text": "And if you're still hunting for ideas on YouTube's Trending page, it's gone. YouTube removed it in July twenty twenty-five and replaced it with Charts."},
+  {"id": "w7", "text": "So here's how to do it properly. Step by step."},
+
+  {"id": "s1a", "text": "Step one is picking a niche. And the rule is simple: don't guess."},
+  {"id": "s1b", "text": "Open YouTube and search for a topic you could make a hundred videos about. Then open the filters, and pick videos from this year."},
+  {"id": "s1c", "text": "You're looking for one thing: a small channel with a video that blew up."},
+  {"id": "s1d", "text": "A channel with eight thousand subscribers and a video with nine hundred thousand views tells you the topic is pulling people in, not the channel's name."},
+  {"id": "s1e", "text": "Copy that channel's link into Social Blade. It shows how fast the channel is growing, and how often it posts."},
+  {"id": "s1f", "text": "Then check the topic on Google Trends. Change the search type from Web Search to YouTube Search, so you see what people look for on YouTube, not on Google."},
+  {"id": "s1g", "text": "If the line is flat or going up, and you found three small channels winning with it, you have your niche. If not, try the next topic."},
+  {"id": "s1h", "text": "But a niche only tells you what to make. It doesn't tell you which videos people will actually click. That's step two."}
+]

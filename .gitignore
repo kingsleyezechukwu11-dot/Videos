@@ -1,2 +1,4 @@
 *.mp4
 *-sheet.jpg
+faceless-ep1/public/rec/*/frames/
+faceless-ep1/public/rec/*/*.jpg
