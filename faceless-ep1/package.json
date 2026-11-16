@@ -1,0 +1,15 @@
+{
+  "name": "faceless-ep1",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.ts Main out/video.mp4 --codec=h264 --crf=18 --browser-executable=/opt/pw-browsers/chromium"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.340",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.340",
+    "typescript": "^5.6.3"
+  }
+}
